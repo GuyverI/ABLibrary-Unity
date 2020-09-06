@@ -9,10 +9,7 @@ public class DataManager
     [System.Serializable]
     public struct Data
     {
-        public TilesManager.Data tileManager;
-        public ScoreManager.Data scoreManager;
-        public bool wasSwapApplied;
-        public SwapBoosterView.Data swapBooster;
+
     }
 
     public struct DataLoadResult
